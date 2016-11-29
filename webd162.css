@@ -1,0 +1,95 @@
+/* Assignment: Week 9
+    Author: Janty Sphabmixay
+    Date: October 25, 2016
+    Filename: webd162.css
+    Description: style sheet
+*/
+
+h1 {
+    color: red;
+    font-family: cursive;
+}
+
+h2{
+    color: darksalmon;
+    font-family: Raleway;
+}
+
+wrapper {
+    padding: 0 .25em .5em;
+    width: 100%;
+    max-width: 1024px;
+}
+
+header img{
+    margin-top: -.5em;
+}
+
+nav ul li {
+	font-size: small;
+    font-family: sans-serif;
+    display: inline;
+    list-style-type: none;
+    padding-right: 20px;
+    text-decoration: none;
+    font-variant: small-caps;
+}
+
+nav ul li a:link{
+    text-decoration: none;
+}
+
+nav ul li a:hover { font-weight: bold; }
+
+
+.leftcol{
+    width: 75%;
+    float: left;
+}
+
+article ol li{
+    list-style-type: upper-alpha;
+    padding: .5em .25em;
+    margin-left: -.25em;
+}
+
+aside{
+    font-family: Raleway;
+    font-style: italic;
+    background-color: rgb(155,220,120);
+    background-color: rgba(155,220,120,0.5);
+    padding: 1em;
+    border-radius: 1em;
+    width: 20%;
+    float: right;
+}
+
+
+article ol li:nth-child(odd):first-line {
+letter-spacing: .125em;
+color: #6C06E0;
+}
+
+
+aside h2{
+    font-family: Raleway;
+}
+
+
+footer {
+    border-top: 1px solid red;
+    font-size: small;
+    font-family: monospace;
+}
+
+#about-page * li.about-link, #proposal-page * li.proposal-link {
+background-color: yellow;
+}
+
+body {
+font-family: 'Noto Sans', sans-serif;
+}
+
+.clearfloat{
+    clear: both;
+}
